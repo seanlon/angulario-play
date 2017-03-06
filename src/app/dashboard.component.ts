@@ -1,5 +1,4 @@
-import { Component } from '@angular/core';
-
+import { Component } from '@angular/core'; 
 
 import { Hero } from './hero';
 import { HeroService } from './hero.service';
@@ -7,7 +6,8 @@ import { HeroService } from './hero.service';
 
 @Component({
   moduleId: module.id,
-  selector: 'dashboard-heroes',    templateUrl: './dashboard.component.html',
+  selector: 'dashboard-heroes',   
+   templateUrl: './dashboard.component.html',
   providers: [HeroService]
 })
 export class DashboardComponent {
